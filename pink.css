@@ -1,0 +1,60 @@
+body{
+    background-color: #f60e42;
+}
+
+form{
+    background-color: #8c0221;
+    padding: 100px;
+    margin: auto;
+    width: 40%;
+    font-size: 25px;
+    color: white;
+    font-family: Arial;
+
+}
+
+input[type=text],input[type=number],input[type=email],input[type=password]{
+    width: 300px;
+    height: 30px;
+    float: right;
+}
+
+select{
+    float: right;
+    height: 30px;
+    width: 200px;
+    margin-right: 105px;
+}
+
+textarea{
+    float: right;
+}
+
+button{
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.gender,.radio-group{
+    display: flex;
+
+
+}
+
+.male{
+    margin-left: 135px;
+    margin-top: 27px;
+}
+
+.female,.other{
+      margin-top: 27px;
+}
+
+input[type=radio]{
+    margin-right: 20px;
+    margin-bottom: 0px;
+}

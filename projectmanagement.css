@@ -1,0 +1,75 @@
+h1{
+    text-align: center;
+    font-size: 30px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+form{
+    width: 35%;
+    background-color: aqua;
+    margin: auto;
+    padding: 30px;
+
+}
+
+
+.gender,.radio-group{
+    display: flex;
+    margin-bottom: 0px;
+
+}
+
+.male{
+    margin-left: 118px;
+    margin-top: 18px;
+}
+
+.female,.other{
+      margin-top: 18px;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    color: white;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+
+
+.green{
+    background-color: #09ef09;
+    border: none;
+}
+
+.blue{
+    background-color: #415cc9;
+    border: none;
+    margin-left: 50px;
+}
+
+
+
+body{
+    font-family: Arial;
+
+}
+
+input[type=text],input[type=date]{
+    width: 290px;
+    height: 20px;
+    float: right;
+}
+
+select{
+    width: 295px;
+    height: 20px;
+    float: right;
+}
+
+textarea{
+    float: right;
+}

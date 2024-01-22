@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project management</title>
+
+    <link rel="stylesheet" href="projectmanagement.css">
+</head>
+<body>
+
+<h1><u><b>Project Management</b></u></h1>
+
+<form action="">
+
+
+
+    <label for="pname">Project Name</label>
+        <input type="text" id="pname" placeholder="project name" required="required">
+
+
+
+    <br><br>
+
+     <label for="to">Assigned to</label>
+
+        <select name="" id="to">
+        <option value="Ex Merry Perterson" disabled="disabled">Ex Merry Perterson</option>
+        <option value="Joseph Mwangi">Joseph Mwangi</option>
+        <option value="Edward Momanyi">Edward Momanyi</option>
+        <option value="Tracy Kate">Tracy Kate</option>
+    </select>
+
+
+
+    <br><br>
+
+     <label for="sdate">Start Date</label>
+    <input type="date" id="sdate" required="required">
+
+    <br><br>
+
+     <label for="ename">End Date</label>
+    <input type="date" id="ename" required="required">
+
+
+
+    <div class="gender">
+
+
+    <p>Gender:</p>
+<div class="radio-group">
+    <label for="Male" class="male">Male:</label>
+    <input type="radio" id="Male">
+
+    <label for="female" class="female">Female:</label>
+    <input type="radio" id="female">
+
+    <label for="Other" class="other">Other:</label>
+    <input type="radio" id="Other">
+</div>
+</div>
+
+    <label for="description" class="describe">Description</label>
+    <textarea name="" id="description" cols="37" rows=3></textarea>
+
+    <div class="buttons">
+        <button type="submit" class="green">Submit</button>
+        <button type="reset" class="blue">Clear</button>
+    </div>
+
+
+</form>
+
+
+
+</body>
+</html>
